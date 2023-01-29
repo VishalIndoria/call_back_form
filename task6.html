@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="task6.js"></script>
+    <style>
+        h3,
+        h4 {
+            text-align: center;
+        }
+
+        h3 {
+            color: orange;
+        }
+
+
+        div {
+            width: 50%;
+            margin: auto;
+            padding: 10px;
+        }
+
+        input {
+            font-size: 18px;
+            color: rgb(9, 73, 52);
+            width: 99%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        button {
+            width: 100%;
+            font-size: 18px;
+            padding: 10px;
+            background-color: orange;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .date {
+            width: 48%;
+            margin: 2px;
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="#" onsubmit="onsignup(event)">
+            <h3>Book a Call</h3>
+            <h4>book a call slot our represetative will call you </h4>
+            <hr>
+            <label>Name</label><br>
+            <input type="text" name="name" required /><br>
+            <label>Email</label><br>
+            <input type="email" name="email" required /><br>
+            <label>Phone No</label><br>
+            <input type="phone" name="Phone No" required /><br>
+            <label>Time for call</label><br>
+            <input type="date" value="23/01/2023" class="date">
+            <input type="time" class="date"><br><br>
+            <button>Get a Call</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
